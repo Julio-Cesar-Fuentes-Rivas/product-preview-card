@@ -1,6 +1,6 @@
 import Image from "next/image";
-import PriceSection from "@/app/components/PriceSection";
-import ProductDetails from "@/app/components/ProductDetails";
+import PriceSection from "@/components/PriceSection";
+import ProductDetails from "@/components/ProductDetails";
 import "@/components/ProductCard.css";
 
 const ProductCard = () => {

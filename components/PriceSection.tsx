@@ -1,4 +1,4 @@
-import './components/PriceSection.css';
+import '@/components/PriceSection.css';
 
 const PriceSection = () => {
   return (
