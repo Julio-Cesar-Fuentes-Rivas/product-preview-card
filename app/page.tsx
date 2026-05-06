@@ -5,10 +5,8 @@ const imagenproducto="/image-product-mobile.jpg";
 export default function Home() {
   return (
     <div>
-      <main>
-  
-<ProductCard />
-<ProductCard />
+      <main className ="main">
+      <ProductCard />
       </main>
     </div>
   );

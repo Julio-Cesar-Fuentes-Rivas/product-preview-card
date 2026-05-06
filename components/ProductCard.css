@@ -5,3 +5,12 @@
     overflow: hidden;
     margin: auto;
 }
+.texto{
+    padding: 25px;
+    width: 50%;
+}
+.imagenContainer{
+    position: relative;
+    width: 250px;
+    height: auto;
+}
