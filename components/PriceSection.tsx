@@ -1,12 +1,17 @@
 import '@/components/PriceSection.css';
 
-const PriceSection = () => {
+interface PriceSectionProps{
+  newPrice:string,
+  oldPrice: string
+}
+
+const PriceSection = ({newPrice, oldPrice}:PriceSectionProps) => {
   return (
     <div className="pricesection">
-    <span className="descuento">$149.99</span>
-    <span className="precio">$169.99</span>
+    <span className="descuento">{`$ ${newPrice}`}</span>
+    <span className="precio">{`$ ${oldPrice}`}</span>
   </div>
   )
-}
+} 
 
 export default PriceSection

@@ -17,11 +17,6 @@ export const metadata: Metadata = {
   description: "Primer componente del producto",
 };
 
-/*export const metadata: Metadata = {
-  title: 'Product Preview Card', // <-- Agrega tu título entre comillas
-  description: 'Frontend Mentor Challenge', // (Opcional) Puedes aprovechar para poner una mejor descripción
-}*/
-
 export default function RootLayout({
   children,
 }: Readonly<{

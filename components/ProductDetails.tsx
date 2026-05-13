@@ -1,12 +1,16 @@
 import "@/components/ProductDetails.css";
-const ProductDetails = () => {
+interface Props{
+  categoria:string,
+  title: string,
+  description: string
+}
+const ProductDetails = ({categoria,title,description}:Props) => {
   return (
     <div>
-      <h3 className="categoria">Perfume</h3>
-      <h2 className="titulo">Gabrielle Essence Eau De Parfum</h2>
+      <h3 className="categoria">{categoria}</h3>
+      <h2 className="titulo">{title}</h2>
       <p className="description">
-        A floral, solar and voluptuous interpretation composed by Olivier Polge,
-        Perfumer-Creator for the House of CHANEL.
+       {description}
       </p>
     </div>
   );

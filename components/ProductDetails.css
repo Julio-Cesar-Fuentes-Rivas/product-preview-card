@@ -10,8 +10,9 @@
 .titulo{
     font-family: var(--font-fraunces);
     color: var(--Black);
-    font-size: 28px;   
+    font-size: 30px;   
     margin-bottom: 20px;
+    font-weight: 700;
 }
 
 .descripcion{

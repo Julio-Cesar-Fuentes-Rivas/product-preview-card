@@ -1,4 +1,4 @@
-import './Button.css';
+import './BuySection.css';
 
 const BuySection = () => {
   return (
